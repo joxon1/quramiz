@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quramiz</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header_container">
+      <div></div>
+      <div class="header_search">
+        <img src="./icons/search.png" alt="search" />
+        <input type="text" placeholder="search" class="header_input" />
+      </div>
+      <div class="header_right_panel">
+        <select name="language" class="header_language">
+          <option value="" disabled>...</option>
+          <option value="">Русский</option>
+          <option value="">Узбекский</option>
+          <option value="">Англиский</option>
+        </select>
+        <div class="header_notification">
+          <img src="./icons/notification.png" alt="notification" />
+          <span></span>
+        </div>
+        <div class="header_account">
+          <img src="./icons/account.png" alt="account" />
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+    <!-- sidebar -->
+    <div class="sidebar_container">
+      <button class="sidebar_tool" onclick="openNav()">
+        <img src="./icons/bar.png" alt="" / >
+      </button>
+      <ul class="sidebar_links">
+        <li class="sidebar_item">
+          <a href="#"
+            ><img src="./icons/home.png" alt="" />
+            <p class="sidebar_text">Главный</p></a
+          >
+        </li>
+        <li class="sidebar_item">
+          <a href="#"
+            ><img src="./icons/shop.png" alt="" />
+            <p class="sidebar_text">Товары</p></a
+          >
+        </li>
+        <li class="sidebar_item">
+          <a href="#"
+            ><img src="./icons/qr_code.png" alt="" />
+            <p class="sidebar_text">QR Code</p></a
+          >
+        </li>
+        <li class="sidebar_item">
+          <a href="#"
+            ><img src="./icons/journal.png" alt="" />
+            <p class="sidebar_text">Журнал</p></a
+          >
+        </li>
+        <li class="sidebar_item">
+          <a href="#"
+            ><img src="./icons/other.png" alt="" />
+            <p class="sidebar_text">Другие...</p></a
+          >
+        </li>
+      </ul>
+      <div></div>
+    </div>
+    <!-- sidebar end -->
+
+    <script src="./app.js"></script>
+  </body>
+</html>
