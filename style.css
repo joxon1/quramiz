@@ -22,7 +22,7 @@ body {
 .header_container {
   margin: 0 auto;
   position: relative;
-  max-width: 100%;
+  min-width: 100vw;
   height: 56px;
   left: 0;
   top: 0;
@@ -123,11 +123,7 @@ body {
   width: 24px;
   height: 24px;
 }
-@media (max-width: 768px) {
-  .header_container{
-    
-  }
-}
+
 /* sidebar */
 .sidebar_container {
   display: flex;
